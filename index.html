@@ -13,6 +13,10 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css"> 
 
+        <!-- Owl Carousel -->
+    <link href="css/owl.carousel.css" rel="stylesheet" >
+    <link href="css/owl.theme.css" rel="stylesheet" >
+
     <!-- Project Styling -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
@@ -310,7 +314,53 @@
 
 <!-- Start Codes -->
 <section id="quotes">
-  This is the quotes section
+
+  <div class="container vertical-align">
+    <div id="owl-demo" class="owl-carousel owl-theme text-center">
+      
+    <div class="item">
+    <blockquote>
+      <h4><cite>John Doe</cite> - Udemy</h4>
+      <a href="#">
+      <img src="images/client.png" alt="client">
+      </a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptatem natus tempora eaque tempore expedita, adipisci error ullam illo! Blanditiis, cumque, itaque! Sed maiores quod tenetur at natus sit, doloribus.</p></blockquote>
+    </div>
+    <div class="item">
+    <blockquote>
+      <h4><cite>John Doe</cite> - Udemy</h4>
+      <a href="#">
+      <img src="images/client.png" alt="client">
+      </a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptatem natus tempora eaque tempore expedita, adipisci error ullam illo! Blanditiis, cumque, itaque! Sed maiores quod tenetur at natus sit, doloribus.</p></blockquote>
+    </div>
+    <div class="item">
+    <blockquote>
+      <h4><cite>John Doe</cite> - Udemy</h4>
+      <a href="#">
+      <img src="images/client.png" alt="client">
+      </a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptatem natus tempora eaque tempore expedita, adipisci error ullam illo! Blanditiis, cumque, itaque! Sed maiores quod tenetur at natus sit, doloribus.</p></blockquote>
+    </div>
+    <div class="item">
+    <blockquote>
+      <h4><cite>John Doe</cite> - Udemy</h4>
+      <a href="#">
+      <img src="images/client.png" alt="client">
+      </a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptatem natus tempora eaque tempore expedita, adipisci error ullam illo! Blanditiis, cumque, itaque! Sed maiores quod tenetur at natus sit, doloribus.</p></blockquote>
+    </div>
+    <div class="item">
+    <blockquote>
+      <h4><cite>John Doe</cite> - Udemy</h4>
+      <a href="#">
+      <img src="images/client.png" alt="client">
+      </a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptatem natus tempora eaque tempore expedita, adipisci error ullam illo! Blanditiis, cumque, itaque! Sed maiores quod tenetur at natus sit, doloribus.</p></blockquote>
+    </div>
+
+    </div>
+  </div>
 </section>
 
 <!-- Start Contact and Google Maps -->
@@ -396,5 +446,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+    $(document).ready(function() {
+        $("#owl-demo").owlCarousel({
+
+        navigation : true,
+        pagination : false,
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem : true,
+
+        });
+      });
+    </script>
   </body>
 </html>

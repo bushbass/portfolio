@@ -343,18 +343,44 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#773a95', end
 
 }
 
-/*quotes
----------------------------------------*/	
+/*-----------------------------------------------------------
+6. Quotes
+-----------------------------------------------------------*/
 #quotes{
-	background: url(../images/quotesbg.png);
-	background-attachment: fixed;
+	background: url(../images/quotesbg.png) fixed;
 	background-repeat: no-repeat;
 	background-position: center;
+	-webkit-background-size: cover;
 	background-size: cover;
-	color: #fff;
 	height: 440px;
+	color: #fff;
 	position: relative;
 }
+
+.owl-carousel h4{
+	font-weight: 300;
+}
+
+.owl-carousel cite{
+	font-style: normal;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.owl-carousel img{
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+
+.owl-carousel p{
+	font-weight: 300;
+}
+blockquote{
+	border-left: none;
+}
+
 
 /*contact form
 ---------------------------------------*/	
@@ -406,4 +432,78 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#773a95', end
 /*footer
 ---------------------------------------*/	
 
+#footer{
+	background: url(../images/footerbg.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	padding: 50px 0;
+
+}
+#footer .logo{
+	font-size: 47px;
+	padding: 0 20px 10px 20px;
+
+}
+#footer ul{
+	padding-left: 0;
+	margin-top: 10px;
+	display: block;
+}
+
+#footer li{
+	display: inline-block;
+}
+
+#footer ul a{
+	font-size: 30px;
+	color: #fff;
+	padding: 0 10px;
+}
+.copyrights{
+	background-color: rgba(0,0,0, 0.5);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	font-size: 12px;
+	width: 100%;
+	padding: 5px 0;
+	color:#fff;
+
+}
+
+/*media queries
+---------------------------------------*/	
+
+@media (min-width: 970px) and (max-width: 1170px) {
+
+	.service-item  i {
+	float: none;
+	border: none;
+	display: block;
+}
+
+.service-item{
+	text-align: center;
+}
+
+.service-title{
+	margin-top: 0;
+	margin-left: 0;
+
+}
+} 
+@media (max-width: 750px){
+
+.progress-bars{
+	margin-top: 30px;
+}
+.google-map{
+	margin-top: 20px;
+}
+
+}
 
