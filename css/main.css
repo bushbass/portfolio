@@ -21,6 +21,9 @@ body{
 	background: #873fb5;
 	color: 	#fff;
 }
+blockquote{
+	margin: 0;
+}
 
 strong{
 	font-weight: 900;
